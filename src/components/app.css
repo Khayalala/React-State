@@ -1,0 +1,27 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-top: 250px;
+}
+form #name, form #email{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(223, 206, 176);
+    padding-left: 15px;
+}
+form button{
+    height: 50px;
+    width: 170px;
+    background-color: orange;
+    color: #fff;
+    font-size: 18px;
+}
+
+.displayUsers h4{
+    color: darkblue;
+}
+.displayUsers h5{
+    color: crimson;
+}
